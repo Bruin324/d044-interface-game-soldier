@@ -6,10 +6,15 @@ public class NavySeal extends Soldier implements Knife, Gun{
         super(name, rank, serialNumber, isDecorated);
     }
 
-    @Override
-    public String doDamage() {
-        return "Taking you down.";
-    }
+//    @Override
+//    public String doDamage() {
+//        return "Taking you down.";
+//    }
+//
+//    @Override
+//    public int doDamage() {
+//        return 5;
+//    }
 
     @Override
     public String speak() {
